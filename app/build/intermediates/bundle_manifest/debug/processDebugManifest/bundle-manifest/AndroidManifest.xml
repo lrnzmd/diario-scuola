@@ -32,6 +32,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.diarioscuola.Appunti" />
         <activity android:name="com.example.diarioscuola.Impostazioni" />
         <activity android:name="com.example.diarioscuola.News" />
         <activity android:name="com.example.diarioscuola.ui.login.News" />
