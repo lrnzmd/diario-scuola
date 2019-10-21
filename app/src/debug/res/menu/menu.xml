@@ -25,5 +25,8 @@ android:layout_height="wrap_content">
     <item
         android:id="@+id/button_impostazioni"
         android:title="impostazioni" />
+    <item
+        android:id="@+id/button_appunti"
+        android:title="appunti" />
 
 </menu>

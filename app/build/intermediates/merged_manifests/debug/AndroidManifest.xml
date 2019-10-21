@@ -32,6 +32,9 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.diarioscuola.Calendario"
+            android:label="@string/title_activity_calendario" />
         <activity android:name="com.example.diarioscuola.Appunti" />
         <activity android:name="com.example.diarioscuola.Impostazioni" />
         <activity android:name="com.example.diarioscuola.News" />
@@ -48,9 +51,6 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
-        <activity
-            android:name="com.example.diarioscuola.Calendario"
-            android:label="@string/title_activity_calendario" />
         <activity android:name="com.example.diarioscuola.Compiti" />
         <activity android:name="com.example.diarioscuola.Lezioni" />
         <activity android:name="com.example.diarioscuola.ui.login.Lezioni" />

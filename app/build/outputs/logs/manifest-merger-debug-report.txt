@@ -102,34 +102,34 @@ MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\lrnzm\.gradle\
 		ADDED from C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:12:9-35
 	android:theme
 		ADDED from C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:17:9-40
-activity#com.example.diarioscuola.Appunti
-ADDED from C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:18:9-54
-	android:name
-		ADDED from C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:18:19-42
-activity#com.example.diarioscuola.Impostazioni
-ADDED from C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:19:9-50
-	android:name
-		ADDED from C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:19:19-47
-activity#com.example.diarioscuola.News
-ADDED from C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:20:9-42
-	android:name
-		ADDED from C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:20:19-39
-activity#com.example.diarioscuola.ui.login.News
-ADDED from C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:21:9-51
-	android:name
-		ADDED from C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:21:19-48
-meta-data#com.google.android.geo.API_KEY
-ADDED from C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:30:9-32:55
-	android:value
-		ADDED from C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:32:13-52
-	android:name
-		ADDED from C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:31:13-58
 activity#com.example.diarioscuola.Calendario
-ADDED from C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:34:9-36:65
+ADDED from C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:18:9-20:74
 	android:label
-		ADDED from C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:36:13-62
+		ADDED from C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:20:13-62
 	android:name
-		ADDED from C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:35:13-39
+		ADDED from C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:19:13-39
+activity#com.example.diarioscuola.Appunti
+ADDED from C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:21:9-45
+	android:name
+		ADDED from C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:21:19-42
+activity#com.example.diarioscuola.Impostazioni
+ADDED from C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:22:9-50
+	android:name
+		ADDED from C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:22:19-47
+activity#com.example.diarioscuola.News
+ADDED from C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:23:9-42
+	android:name
+		ADDED from C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:23:19-39
+activity#com.example.diarioscuola.ui.login.News
+ADDED from C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:24:9-51
+	android:name
+		ADDED from C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:24:19-48
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:33:9-35:55
+	android:value
+		ADDED from C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:35:13-52
+	android:name
+		ADDED from C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:34:13-58
 activity#com.example.diarioscuola.Compiti
 ADDED from C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:37:9-45
 	android:name

@@ -51,39 +51,39 @@
 33        android:testOnly="true"
 34        android:theme="@style/AppTheme" >
 34-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:17:9-40
-35        <activity android:name="com.example.diarioscuola.Appunti" />
-35-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:18:9-54
-35-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:18:19-42
-36        <activity android:name="com.example.diarioscuola.Impostazioni" />
-36-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:19:9-50
-36-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:19:19-47
-37        <activity android:name="com.example.diarioscuola.News" />
-37-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:20:9-42
-37-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:20:19-39
-38        <activity android:name="com.example.diarioscuola.ui.login.News" />
-38-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:21:9-51
-38-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:21:19-48
-39        <!--
-40             The API key for Google Maps-based APIs is defined as a string resource.
-41             (See the file "res/values/google_maps_api.xml").
-42             Note that the API key is linked to the encryption key used to sign the APK.
-43             You need a different API key for each encryption key, including the release key that is used to
-44             sign the APK for publishing.
-45             You can define the keys for the debug and release targets in src/debug/ and src/release/.
-46        -->
-47        <meta-data
-47-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:30:9-32:55
-48            android:name="com.google.android.geo.API_KEY"
-48-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:31:13-58
-49            android:value="@string/google_maps_key" />
-49-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:32:13-52
-50
-51        <activity
-51-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:34:9-36:65
-52            android:name="com.example.diarioscuola.Calendario"
-52-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:35:13-39
-53            android:label="@string/title_activity_calendario" />
-53-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:36:13-62
+35        <activity
+35-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:18:9-20:74
+36            android:name="com.example.diarioscuola.Calendario"
+36-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:19:13-39
+37            android:label="@string/title_activity_calendario" />
+37-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:20:13-62
+38        <activity android:name="com.example.diarioscuola.Appunti" />
+38-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:21:9-45
+38-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:21:19-42
+39        <activity android:name="com.example.diarioscuola.Impostazioni" />
+39-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:22:9-50
+39-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:22:19-47
+40        <activity android:name="com.example.diarioscuola.News" />
+40-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:23:9-42
+40-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:23:19-39
+41        <activity android:name="com.example.diarioscuola.ui.login.News" />
+41-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:24:9-51
+41-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:24:19-48
+42        <!--
+43             The API key for Google Maps-based APIs is defined as a string resource.
+44             (See the file "res/values/google_maps_api.xml").
+45             Note that the API key is linked to the encryption key used to sign the APK.
+46             You need a different API key for each encryption key, including the release key that is used to
+47             sign the APK for publishing.
+48             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+49        -->
+50        <meta-data
+50-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:33:9-35:55
+51            android:name="com.google.android.geo.API_KEY"
+51-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:34:13-58
+52            android:value="@string/google_maps_key" />
+52-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:35:13-52
+53
 54        <activity android:name="com.example.diarioscuola.Compiti" />
 54-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:37:9-45
 54-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:37:19-42

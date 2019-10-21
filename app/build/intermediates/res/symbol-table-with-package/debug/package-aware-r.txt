@@ -1136,7 +1136,13 @@ id button4
 id button5
 id button6
 id buttonPanel
+id button_appunti
+id button_calendario
 id button_compiti
+id button_home
+id button_impostazioni
+id button_lezioni
+id button_news
 id cancel_action
 id center
 id center_horizontal
@@ -1204,7 +1210,6 @@ id listMode
 id list_item
 id loading
 id login
-id map
 id masked
 id media_actions
 id menu
