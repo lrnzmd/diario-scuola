@@ -1143,6 +1143,7 @@ id button_home
 id button_impostazioni
 id button_lezioni
 id button_news
+id calendarView
 id cancel_action
 id center
 id center_horizontal

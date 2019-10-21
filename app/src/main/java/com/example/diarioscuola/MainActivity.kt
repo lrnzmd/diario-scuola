@@ -90,6 +90,12 @@ class MainActivity : AppCompatActivity() {
                 true
             }
 
+            R.id.button_news -> {
+                val intent = Intent(this, News::class.java)
+                startActivity(intent)
+                true
+            }
+
             R.id.button_impostazioni -> {
                 val intent = Intent(this, Impostazioni::class.java)
                 startActivity(intent)
