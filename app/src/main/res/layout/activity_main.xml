@@ -36,7 +36,7 @@
         android:id="@+id/button3"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="impostazioni"
+        android:text="appunti"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toLeftOf="@id/button4"
         app:layout_constraintTop_toBottomOf="@id/button1" />
@@ -54,7 +54,7 @@
         android:id="@+id/button5"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="appunti"
+        android:text="impostazioni"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toLeftOf="@id/button6"
         app:layout_constraintTop_toBottomOf="@id/button3" />

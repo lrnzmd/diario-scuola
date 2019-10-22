@@ -9,39 +9,144 @@
 8-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
 9-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml
-10
-11    <application
-11-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:5:5-19:19
-12        android:allowBackup="true"
-12-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:6:9-35
-13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.0.2] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\d2b0bead247ceca154d7ad1db108f1f6\core-1.0.2\AndroidManifest.xml:22:18-86
-14        android:debuggable="true"
-15        android:icon="@mipmap/ic_launcher"
-15-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:7:9-43
-16        android:label="@string/app_name"
-16-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:8:9-41
-17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:9:9-54
-18        android:supportsRtl="true"
-18-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:10:9-35
-19        android:testOnly="true"
-20        android:theme="@style/AppTheme" >
-20-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:11:9-40
-21        <activity android:name="com.example.diarioscuola.MainActivity" >
-21-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:12:9-18:20
-21-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:12:19-47
-22            <intent-filter>
-22-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:13:13-17:29
-23                <action android:name="android.intent.action.MAIN" />
-23-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:14:17-69
-23-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:14:25-66
+10    <!--
+11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+12         Google Maps Android API v2, but you must specify either coarse or fine
+13         location permissions for the 'MyLocation' functionality.
+14    -->
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:9:5-79
+15-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:9:22-76
+16
+17    <!-- Include required permissions for Google Maps API to run. -->
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\c3be582c0c5bde2942d44119fa19d36b\jetified-play-services-maps-16.1.0\AndroidManifest.xml:23:5-79
+18-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\c3be582c0c5bde2942d44119fa19d36b\jetified-play-services-maps-16.1.0\AndroidManifest.xml:23:22-76
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\c3be582c0c5bde2942d44119fa19d36b\jetified-play-services-maps-16.1.0\AndroidManifest.xml:24:5-67
+19-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\c3be582c0c5bde2942d44119fa19d36b\jetified-play-services-maps-16.1.0\AndroidManifest.xml:24:22-64
+20
+21    <uses-feature
+21-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\c3be582c0c5bde2942d44119fa19d36b\jetified-play-services-maps-16.1.0\AndroidManifest.xml:26:5-28:35
+22        android:glEsVersion="0x00020000"
+22-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\c3be582c0c5bde2942d44119fa19d36b\jetified-play-services-maps-16.1.0\AndroidManifest.xml:27:9-41
+23        android:required="true" />
+23-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\c3be582c0c5bde2942d44119fa19d36b\jetified-play-services-maps-16.1.0\AndroidManifest.xml:28:9-32
 24
-25                <category android:name="android.intent.category.LAUNCHER" />
-25-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:16:17-77
-25-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:16:27-74
-26            </intent-filter>
-27        </activity>
-28    </application>
-29
-30</manifest>
+25    <application
+25-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:11:5-50:19
+26        android:allowBackup="true"
+26-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:12:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.0.2] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\d2b0bead247ceca154d7ad1db108f1f6\core-1.0.2\AndroidManifest.xml:22:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:13:9-43
+30        android:label="@string/app_name"
+30-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:14:9-41
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:15:9-54
+32        android:supportsRtl="true"
+32-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:16:9-35
+33        android:testOnly="true"
+34        android:theme="@style/AppTheme" >
+34-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:17:9-40
+35        <activity
+35-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:18:9-20:74
+36            android:name="com.example.diarioscuola.Calendario"
+36-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:19:13-39
+37            android:label="@string/title_activity_calendario" />
+37-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:20:13-62
+38        <activity android:name="com.example.diarioscuola.Appunti" />
+38-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:21:9-45
+38-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:21:19-42
+39        <activity android:name="com.example.diarioscuola.Impostazioni" />
+39-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:22:9-50
+39-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:22:19-47
+40        <activity android:name="com.example.diarioscuola.News" />
+40-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:23:9-42
+40-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:23:19-39
+41        <activity android:name="com.example.diarioscuola.ui.login.News" />
+41-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:24:9-51
+41-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:24:19-48
+42        <!--
+43             The API key for Google Maps-based APIs is defined as a string resource.
+44             (See the file "res/values/google_maps_api.xml").
+45             Note that the API key is linked to the encryption key used to sign the APK.
+46             You need a different API key for each encryption key, including the release key that is used to
+47             sign the APK for publishing.
+48             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+49        -->
+50        <meta-data
+50-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:33:9-35:55
+51            android:name="com.google.android.geo.API_KEY"
+51-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:34:13-58
+52            android:value="@string/google_maps_key" />
+52-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:35:13-52
+53
+54        <activity android:name="com.example.diarioscuola.Compiti" />
+54-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:37:9-45
+54-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:37:19-42
+55        <activity android:name="com.example.diarioscuola.Lezioni" />
+55-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:38:9-45
+55-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:38:19-42
+56        <activity android:name="com.example.diarioscuola.ui.login.Lezioni" />
+56-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:39:9-54
+56-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:39:19-51
+57        <activity
+57-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:40:9-42:60
+58            android:name="com.example.diarioscuola.ui.login.LoginActivity"
+58-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:41:13-51
+59            android:label="@string/title_activity_login" />
+59-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:42:13-57
+60        <activity android:name="com.example.diarioscuola.MainActivity" >
+60-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:43:9-49:20
+60-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:43:19-47
+61            <intent-filter>
+61-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:44:13-48:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:45:17-69
+62-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:45:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:47:17-77
+64-->C:\Users\lrnzm\AndroidStudioProjects\Diarioscuola\app\src\main\AndroidManifest.xml:47:27-74
+65            </intent-filter>
+66        </activity>
+67        <!-- Needs to be explicitly declared on P+ -->
+68        <uses-library
+68-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\c3be582c0c5bde2942d44119fa19d36b\jetified-play-services-maps-16.1.0\AndroidManifest.xml:33:9-35:40
+69            android:name="org.apache.http.legacy"
+69-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\c3be582c0c5bde2942d44119fa19d36b\jetified-play-services-maps-16.1.0\AndroidManifest.xml:34:13-50
+70            android:required="false" />
+70-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\c3be582c0c5bde2942d44119fa19d36b\jetified-play-services-maps-16.1.0\AndroidManifest.xml:35:13-37
+71
+72        <activity
+72-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\dd706e94858f24ae91f59c1f7afedf19\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+73            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+73-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\dd706e94858f24ae91f59c1f7afedf19\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+74            android:exported="false"
+74-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\dd706e94858f24ae91f59c1f7afedf19\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+75            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+75-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\dd706e94858f24ae91f59c1f7afedf19\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+76
+77        <meta-data
+77-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\d2f44379468469083058b76604eb3391\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+78            android:name="com.google.android.gms.version"
+78-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\d2f44379468469083058b76604eb3391\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+79            android:value="@integer/google_play_services_version" />
+79-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\d2f44379468469083058b76604eb3391\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+80
+81        <provider
+81-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\fd73b37e4a3dbd779502cd70e31166b6\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+82            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+82-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\fd73b37e4a3dbd779502cd70e31166b6\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+83            android:authorities="com.example.diarioscuola.lifecycle-process"
+83-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\fd73b37e4a3dbd779502cd70e31166b6\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+84            android:exported="false"
+84-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\fd73b37e4a3dbd779502cd70e31166b6\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+85            android:multiprocess="true" />
+85-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\fd73b37e4a3dbd779502cd70e31166b6\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+86    </application>
+87
+88</manifest>
