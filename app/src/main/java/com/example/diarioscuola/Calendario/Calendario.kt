@@ -1,4 +1,4 @@
-package com.example.diarioscuola
+package com.example.diarioscuola.Calendario
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -6,12 +6,18 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuInflater
 import android.view.MenuItem
+import com.example.diarioscuola.*
+import com.example.diarioscuola.Appunti.Appunti
+import com.example.diarioscuola.Compiti.Compiti
+import com.example.diarioscuola.Impostazioni.Impostazioni
+import com.example.diarioscuola.Lezioni.Lezioni
+import com.example.diarioscuola.News.News
 
-class Appunti : AppCompatActivity() {
+class Calendario : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_appunti)
+        setContentView(R.layout.activity_calendario)
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
@@ -70,4 +76,5 @@ class Appunti : AppCompatActivity() {
             else -> super.onOptionsItemSelected(item)
         }
     }
+
 }

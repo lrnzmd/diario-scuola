@@ -16,11 +16,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".Calendario"
+            android:name=".Calendario.Calendario"
             android:label="@string/title_activity_calendario"></activity>
-        <activity android:name=".Appunti" />
-        <activity android:name=".Impostazioni" />
-        <activity android:name=".News" />
+        <activity android:name=".Appunti.Appunti" />
+        <activity android:name=".Impostazioni.Impostazioni" />
+        <activity android:name=".News.News" />
         <activity android:name=".ui.login.News" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -34,8 +34,8 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
-        <activity android:name=".Compiti" />
-        <activity android:name=".Lezioni" />
+        <activity android:name=".Compiti.Compiti" />
+        <activity android:name=".Lezioni.Lezioni" />
         <activity android:name=".ui.login.Lezioni" />
         <activity
             android:name=".ui.login.LoginActivity"

@@ -4,6 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Impostazioni">
+    tools:context=".Impostazioni.Impostazioni">
+
+    <fragment
+        android:name="com.example.diarioscuola.Impostazioni.ImpostazioniFragment"
+        android:id="@+id/impostazioni_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

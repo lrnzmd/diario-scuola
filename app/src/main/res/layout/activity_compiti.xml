@@ -4,6 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Compiti">
+    tools:context=".Compiti.Compiti">
+
+
+    <fragment
+        android:name="com.example.diarioscuola.Compiti.CompitiFragment"
+        android:id="@+id/compiti_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

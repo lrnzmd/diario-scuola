@@ -1,4 +1,4 @@
-package com.example.diarioscuola
+package com.example.diarioscuola.Impostazioni
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -6,6 +6,13 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuInflater
 import android.view.MenuItem
+import com.example.diarioscuola.Appunti.Appunti
+import com.example.diarioscuola.Calendario.Calendario
+import com.example.diarioscuola.Compiti.Compiti
+import com.example.diarioscuola.Lezioni.Lezioni
+import com.example.diarioscuola.MainActivity
+import com.example.diarioscuola.News.News
+import com.example.diarioscuola.R
 
 class Impostazioni : AppCompatActivity() {
 

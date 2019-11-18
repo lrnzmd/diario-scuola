@@ -7,7 +7,12 @@ import android.view.Menu
 import android.view.MenuInflater
 import android.view.MenuItem
 import android.widget.Button
-import android.widget.Toast
+import com.example.diarioscuola.Appunti.Appunti
+import com.example.diarioscuola.Calendario.Calendario
+import com.example.diarioscuola.Compiti.Compiti
+import com.example.diarioscuola.Impostazioni.Impostazioni
+import com.example.diarioscuola.Lezioni.Lezioni
+import com.example.diarioscuola.News.News
 
 class MainActivity : AppCompatActivity() {
 
